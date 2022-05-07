@@ -15,7 +15,7 @@ DIRECTORY = Path(os.path.dirname(os.path.realpath(__file__)))
 env_path = DIRECTORY / '.env'
 load_dotenv(dotenv_path=env_path)
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('5321788460:AAE1y9t7NWnV5S_vyGgkCEWJoJ3eeiCmyC4')
 URL = f'https://api.telegram.org/bot{TOKEN}/'
 
 # En caso de usar un proxy
